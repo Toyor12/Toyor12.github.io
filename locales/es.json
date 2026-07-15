@@ -1,0 +1,197 @@
+{
+  "language": {
+    "label": "Idioma"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "main": "Navegación principal",
+    "profile": "Perfil",
+    "systems": "Sistemas",
+    "capabilities": "Capacidades",
+    "contact": "Contacto",
+    "toggle": "Abrir navegación"
+  },
+  "identity": {
+    "subtitle": "Data Engineer · Renania del Norte-Westfalia, Alemania"
+  },
+  "hero": {
+    "eyebrow": "<span></span>Disponible para oportunidades de ingeniería de datos",
+    "title": "Ella convierte<br><em>señales en bruto</em><br>en certeza.",
+    "lead": "Oyewole diseña pipelines fiables, modelos analíticos y productos de datos que transforman información dispersa en decisiones seguras.",
+    "primaryAction": "Entrar al atlas de datos",
+    "secondaryAction": "Iniciar una conversación <span>↗</span>"
+  },
+  "observatory": {
+    "ariaLabel": "Observatorio interactivo de datos",
+    "portraitAlt": "Retrato de Oyewole Oluwatoyosi",
+    "coreLabel": "HUMANA / SISTEMA / 01",
+    "activeSignal": "SEÑAL ACTIVA",
+    "defaultLabel": "INGENIERÍA DE DATOS",
+    "defaultDetail": "Sistemas fiables, decisiones claras.",
+    "signals": {
+      "python": {
+        "label": "PYTHON",
+        "detail": "Automatización, transformación y lógica de datos fiable."
+      },
+      "sql": {
+        "label": "SQL",
+        "detail": "Respuestas fiables a velocidad de almacén de datos."
+      },
+      "pyspark": {
+        "label": "PYSPARK",
+        "detail": "Procesamiento distribuido para datos a escala."
+      },
+      "powerBi": {
+        "label": "POWER BI",
+        "detail": "Análisis complejos convertidos en decisiones claras."
+      },
+      "machineLearning": {
+        "label": "MACHINE LEARNING",
+        "detail": "Patrones convertidos en predicciones prácticas."
+      }
+    }
+  },
+  "heroIndex": {
+    "pipelines": "PIPELINES",
+    "analytics": "ANÁLISIS",
+    "machineLearning": "MACHINE LEARNING"
+  },
+  "profile": {
+    "code": "PERFIL / 001",
+    "kicker": "La ingeniería de datos no consiste simplemente en mover filas de A a B.",
+    "title": "Es la arquitectura silenciosa detrás de cada decisión en la que se puede confiar.",
+    "aboutLabel": "SOBRE MÍ",
+    "aboutText": "Data Scientist y analista con experiencia en Python, SQL, Excel y Power BI, centrada en resolver problemas de negocio y facilitar decisiones informadas.",
+    "focusLabel": "ENFOQUE",
+    "focusText": "Preparación de datos, modelado, previsión, reporting y productos analíticos prácticos para stakeholders.",
+    "baseLabel": "UBICACIÓN",
+    "baseText": "Renania del Norte-Westfalia, Alemania"
+  },
+  "systems": {
+    "code": "SISTEMAS / 008",
+    "title": "Trabajo seleccionado,<br>mapeado como sistemas vivos.",
+    "description": "Cada proyecto comienza con una pregunta de negocio y termina con una señal útil.",
+    "projectListLabel": "Lista de proyectos",
+    "openSource": "ABRIR CÓDIGO ↗",
+    "sourceLabel": "FUENTE",
+    "processLabel": "PROCESO",
+    "outputLabel": "SALIDA",
+    "businessSignal": "SEÑAL DE NEGOCIO",
+    "systemLabel": "SISTEMA {{number}}"
+  },
+  "capabilities": {
+    "code": "CAPACIDADES / 004",
+    "title": "Un ciclo de vida de datos completo,<br>desde una sola visión.",
+    "items": {
+      "engineer": {
+        "title": "Construir",
+        "text": "Python · SQL · PySpark · ETL/ELT · modelado de datos · orquestación · flujos cloud"
+      },
+      "analyze": {
+        "title": "Analizar",
+        "text": "Power BI · DAX · Excel · Power Query · diseño de dashboards · reporting"
+      },
+      "predict": {
+        "title": "Predecir",
+        "text": "EDA · ingeniería de variables · regresión · clasificación · previsión · despliegue"
+      },
+      "translate": {
+        "title": "Traducir",
+        "text": "Métricas · preguntas de negocio · narrativas analíticas · recomendaciones prácticas"
+      }
+    }
+  },
+  "contact": {
+    "code": "CONTACTO / ABIERTO",
+    "kicker": "Todo sistema sólido comienza con una pregunta útil.",
+    "title": "¿Qué deberían<br>revelar los datos?",
+    "endpoint": "POST /COLABORAR",
+    "payload": "{\n  \"nombre\": \"Oyewole Oluwatoyosi\",\n  \"rol\": \"Data Engineer\",\n  \"ubicación\": \"NRW, Alemania\",\n  \"disponible\": true,\n  \"estado\": 200\n}"
+  },
+  "footer": {
+    "signature": "Diseñado como un sistema de datos vivo",
+    "backToOrbit": "Volver a la órbita ↑"
+  },
+  "projects": [
+    {
+      "shortTitle": "Pipeline logística CDC",
+      "type": "DATA ENGINEERING · CDC · POSTGRESQL",
+      "title": "Pipeline logística CDC",
+      "description": "Una pipeline de captura de cambios para sincronizar eventos logísticos, preservar la consistencia y permitir análisis casi en tiempo real.",
+      "source": "Transacciones logísticas",
+      "process": "Capturar · transmitir · sincronizar",
+      "output": "Datos operativos fiables",
+      "metric": "Visibilidad casi en tiempo real"
+    },
+    {
+      "shortTitle": "Pipeline agrícola de la ONU",
+      "type": "DATA ENGINEERING · ETL · ANALYTICS",
+      "title": "Pipeline de productos agrícolas de la ONU",
+      "description": "Una pipeline integral que ingiere, limpia y estructura datos agrícolas de las Naciones Unidas para análisis e informes fiables.",
+      "source": "Conjuntos de datos de la ONU",
+      "process": "Ingerir · validar · transformar",
+      "output": "Datos listos para análisis",
+      "metric": "Información fiable de productos"
+    },
+    {
+      "shortTitle": "Pipeline de reseñas GCP",
+      "type": "GCP · DATA PIPELINE · NLP",
+      "title": "Pipeline GCP de reseñas de productos",
+      "description": "Una pipeline nativa de Google Cloud que procesa reseñas y prepara datos estructurados para análisis escalables.",
+      "source": "Datos de reseñas de productos",
+      "process": "Recopilar · procesar · enriquecer",
+      "output": "Capa de inteligencia de reseñas",
+      "metric": "Información escalable del cliente"
+    },
+    {
+      "shortTitle": "Data Mart financiero Snowflake",
+      "type": "ANALYTICS ENGINEERING · SNOWFLAKE",
+      "title": "Data Mart financiero en Snowflake",
+      "description": "Un data mart financiero en Snowflake para organizar métricas, mejorar la consistencia de los informes y apoyar análisis para la toma de decisiones.",
+      "source": "Sistemas financieros de origen",
+      "process": "Modelar · probar · transformar",
+      "output": "Data mart financiero curado",
+      "metric": "Informes financieros consistentes"
+    },
+    {
+      "shortTitle": "Pipeline de proveedores sanitarios",
+      "type": "DATA ENGINEERING · HEALTHCARE",
+      "title": "Pipeline de proveedores sanitarios",
+      "description": "Una pipeline estructurada que prepara datos de proveedores para análisis fiables, controles de calidad e informes operativos.",
+      "source": "Registros de proveedores",
+      "process": "Validar · estandarizar · cargar",
+      "output": "Conjunto de datos fiable",
+      "metric": "Mejor calidad de datos"
+    },
+    {
+      "shortTitle": "Analítica CRM e-commerce",
+      "type": "WAREHOUSING · CRM · CAMPAIGN ANALYTICS",
+      "title": "Analítica CRM y de campañas de e-commerce",
+      "description": "Una solución que conecta datos de e-commerce, CRM y campañas para medir comportamiento, rendimiento de marketing e impacto comercial.",
+      "source": "Comercio · CRM · campañas",
+      "process": "Unificar · modelar · analizar",
+      "output": "Mart de clientes y campañas",
+      "metric": "Claridad del rendimiento de marketing"
+    },
+    {
+      "shortTitle": "ML de precios de materias primas",
+      "type": "MLOPS · KUBERNETES · FORECASTING",
+      "title": "Pipeline ML de predicción de precios de materias primas",
+      "description": "Una pipeline de machine learning orientada a producción con flujos de modelos, contenedores y despliegue en Kubernetes.",
+      "source": "Datos del mercado de materias primas",
+      "process": "Entrenar · evaluar · desplegar",
+      "output": "Servicio de predicción desplegado",
+      "metric": "Inteligencia lista para pronóstico"
+    },
+    {
+      "shortTitle": "Rendimiento de Forggith",
+      "type": "ANALYTICS · POWER BI",
+      "title": "Revisión del rendimiento de Forggith Pharmaceuticals",
+      "description": "Un análisis estructurado que transforma datos farmacéuticos en información de productos, ingresos y equipos de ventas.",
+      "source": "Registros operativos",
+      "process": "Limpiar · modelar · validar",
+      "output": "Dashboard de decisión",
+      "metric": "Claridad del rendimiento"
+    }
+  ]
+}

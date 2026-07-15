@@ -1,0 +1,197 @@
+{
+  "language": {
+    "label": "Language"
+  },
+  "navigation": {
+    "home": "Home",
+    "main": "Main navigation",
+    "profile": "Profile",
+    "systems": "Systems",
+    "capabilities": "Capabilities",
+    "contact": "Contact",
+    "toggle": "Toggle navigation"
+  },
+  "identity": {
+    "subtitle": "Data Engineer · NRW, Germany"
+  },
+  "hero": {
+    "eyebrow": "<span></span>Available for data engineering opportunities",
+    "title": "She turns<br><em>raw signals</em><br>into certainty.",
+    "lead": "Oyewole designs dependable pipelines, analytical models and data products that transform scattered information into confident decisions.",
+    "primaryAction": "Enter the data atlas",
+    "secondaryAction": "Start a conversation <span>↗</span>"
+  },
+  "observatory": {
+    "ariaLabel": "Interactive data observatory",
+    "portraitAlt": "Portrait of Oyewole Oluwatoyosi",
+    "coreLabel": "HUMAN / SYSTEM / 01",
+    "activeSignal": "ACTIVE SIGNAL",
+    "defaultLabel": "DATA ENGINEERING",
+    "defaultDetail": "Reliable systems, clear decisions.",
+    "signals": {
+      "python": {
+        "label": "PYTHON",
+        "detail": "Automation, transformation and reliable data logic."
+      },
+      "sql": {
+        "label": "SQL",
+        "detail": "Trusted questions answered at warehouse speed."
+      },
+      "pyspark": {
+        "label": "PYSPARK",
+        "detail": "Distributed processing for data at scale."
+      },
+      "powerBi": {
+        "label": "POWER BI",
+        "detail": "Complex analysis translated into clear decisions."
+      },
+      "machineLearning": {
+        "label": "MACHINE LEARNING",
+        "detail": "Patterns converted into practical predictions."
+      }
+    }
+  },
+  "heroIndex": {
+    "pipelines": "PIPELINES",
+    "analytics": "ANALYTICS",
+    "machineLearning": "MACHINE LEARNING"
+  },
+  "profile": {
+    "code": "PROFILE / 001",
+    "kicker": "I believe data engineering is not about moving rows from A to B.",
+    "title": "It is the quiet architecture behind every decision people can trust.",
+    "aboutLabel": "ABOUT",
+    "aboutText": "A passionate Data Scientist and Analyst skilled in Python, SQL, Excel and Power BI, with a strong focus on solving business problems and enabling informed decisions.",
+    "focusLabel": "FOCUS",
+    "focusText": "Data preparation, modelling, forecasting, reporting and practical analytical products for stakeholders.",
+    "baseLabel": "BASE",
+    "baseText": "North Rhine-Westphalia, Germany"
+  },
+  "systems": {
+    "code": "SYSTEMS / 008",
+    "title": "Selected work,<br>mapped as living systems.",
+    "description": "Each project begins with a business question and ends with a usable signal.",
+    "projectListLabel": "Project list",
+    "openSource": "OPEN SOURCE ↗",
+    "sourceLabel": "SOURCE",
+    "processLabel": "PROCESS",
+    "outputLabel": "OUTPUT",
+    "businessSignal": "BUSINESS SIGNAL",
+    "systemLabel": "SYSTEM {{number}}"
+  },
+  "capabilities": {
+    "code": "CAPABILITIES / 004",
+    "title": "A complete data lifecycle,<br>held in one point of view.",
+    "items": {
+      "engineer": {
+        "title": "Engineer",
+        "text": "Python · SQL · PySpark · ETL/ELT · data modelling · orchestration · cloud workflows"
+      },
+      "analyze": {
+        "title": "Analyze",
+        "text": "Power BI · DAX · Excel · Power Query · dashboard design · stakeholder reporting"
+      },
+      "predict": {
+        "title": "Predict",
+        "text": "EDA · feature engineering · regression · classification · forecasting · deployment"
+      },
+      "translate": {
+        "title": "Translate",
+        "text": "Metrics · business questions · analytical narratives · practical recommendations"
+      }
+    }
+  },
+  "contact": {
+    "code": "CONTACT / OPEN",
+    "kicker": "Every strong system begins with a useful question.",
+    "title": "What should<br>the data reveal?",
+    "endpoint": "POST /COLLABORATE",
+    "payload": "{\n  \"name\": \"Oyewole Oluwatoyosi\",\n  \"role\": \"Data Engineer\",\n  \"location\": \"NRW, Germany\",\n  \"availability\": true,\n  \"status\": 200\n}"
+  },
+  "footer": {
+    "signature": "Designed as a living data system",
+    "backToOrbit": "Back to orbit ↑"
+  },
+  "projects": [
+    {
+      "shortTitle": "CDC Logistics Pipeline",
+      "type": "DATA ENGINEERING · CDC · POSTGRESQL",
+      "title": "CDC Logistics Pipeline",
+      "description": "A change-data-capture logistics pipeline designed to synchronize operational events, preserve data consistency and support near-real-time analytics.",
+      "source": "Logistics transactions",
+      "process": "Capture · stream · synchronize",
+      "output": "Reliable operational data",
+      "metric": "Near-real-time visibility"
+    },
+    {
+      "shortTitle": "UN Agricultural Pipeline",
+      "type": "DATA ENGINEERING · ETL · ANALYTICS",
+      "title": "UN Agricultural Commodity Pipeline",
+      "description": "An end-to-end pipeline that ingests, cleans and structures United Nations agricultural commodity data for dependable analysis and reporting.",
+      "source": "UN commodity datasets",
+      "process": "Ingest · validate · transform",
+      "output": "Analytics-ready dataset",
+      "metric": "Trusted commodity insights"
+    },
+    {
+      "shortTitle": "GCP Review Pipeline",
+      "type": "GCP · DATA PIPELINE · NLP",
+      "title": "GCP Product Review Pipeline",
+      "description": "A cloud-native data pipeline on Google Cloud that processes product reviews and prepares structured data for scalable analysis and insight generation.",
+      "source": "Product review data",
+      "process": "Collect · process · enrich",
+      "output": "Review intelligence layer",
+      "metric": "Scalable customer insight"
+    },
+    {
+      "shortTitle": "Snowflake Finance Mart",
+      "type": "ANALYTICS ENGINEERING · SNOWFLAKE",
+      "title": "Snowflake Finance Data Mart",
+      "description": "A finance-focused analytical data mart built in Snowflake to organize business metrics, improve reporting consistency and support decision-ready analysis.",
+      "source": "Financial source systems",
+      "process": "Model · test · transform",
+      "output": "Curated finance mart",
+      "metric": "Consistent financial reporting"
+    },
+    {
+      "shortTitle": "Healthcare Provider Pipeline",
+      "type": "DATA ENGINEERING · HEALTHCARE",
+      "title": "Healthcare Provider Pipeline",
+      "description": "A structured healthcare data pipeline that prepares provider information for reliable downstream analytics, quality checks and operational reporting.",
+      "source": "Provider records",
+      "process": "Validate · standardize · load",
+      "output": "Trusted provider dataset",
+      "metric": "Improved data quality"
+    },
+    {
+      "shortTitle": "E-Commerce CRM Analytics",
+      "type": "WAREHOUSING · CRM · CAMPAIGN ANALYTICS",
+      "title": "E-Commerce CRM & Campaign Analytics",
+      "description": "An analytics solution connecting e-commerce, CRM and campaign data to measure customer behavior, marketing performance and commercial impact.",
+      "source": "Commerce · CRM · campaigns",
+      "process": "Unify · model · analyze",
+      "output": "Customer and campaign mart",
+      "metric": "Marketing performance clarity"
+    },
+    {
+      "shortTitle": "Commodity Price ML",
+      "type": "MLOPS · KUBERNETES · FORECASTING",
+      "title": "Commodity Price Prediction ML Pipeline",
+      "description": "A production-oriented machine-learning pipeline for commodity price prediction, including model workflows, containerization and Kubernetes deployment.",
+      "source": "Commodity market data",
+      "process": "Train · evaluate · deploy",
+      "output": "Deployed prediction service",
+      "metric": "Forecast-ready intelligence"
+    },
+    {
+      "shortTitle": "Forggith Performance",
+      "type": "ANALYTICS · POWER BI",
+      "title": "Performance Review of Forggith Pharmaceuticals",
+      "description": "A structured performance analysis translating pharmaceutical data into product, revenue and sales-team insights.",
+      "source": "Operational records",
+      "process": "Clean · model · validate",
+      "output": "Decision dashboard",
+      "metric": "Performance clarity"
+    }
+  ]
+}

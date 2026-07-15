@@ -1,0 +1,197 @@
+{
+  "language": {
+    "label": "语言"
+  },
+  "navigation": {
+    "home": "首页",
+    "main": "主导航",
+    "profile": "简介",
+    "systems": "项目系统",
+    "capabilities": "能力",
+    "contact": "联系",
+    "toggle": "打开导航"
+  },
+  "identity": {
+    "subtitle": "数据工程师 · 德国北莱茵-威斯特法伦州"
+  },
+  "hero": {
+    "eyebrow": "<span></span>正在寻找数据工程机会",
+    "title": "她将<br><em>原始信号</em><br>转化为确定性。",
+    "lead": "Oyewole 构建可靠的数据管道、分析模型和数据产品，把分散的信息转化为可信的决策。",
+    "primaryAction": "进入数据图谱",
+    "secondaryAction": "开始交流 <span>↗</span>"
+  },
+  "observatory": {
+    "ariaLabel": "交互式数据观测站",
+    "portraitAlt": "Oyewole Oluwatoyosi 肖像",
+    "coreLabel": "人 / 系统 / 01",
+    "activeSignal": "当前信号",
+    "defaultLabel": "数据工程",
+    "defaultDetail": "可靠系统，清晰决策。",
+    "signals": {
+      "python": {
+        "label": "PYTHON",
+        "detail": "自动化、转换与可靠的数据逻辑。"
+      },
+      "sql": {
+        "label": "SQL",
+        "detail": "以数据仓库级速度获得可信答案。"
+      },
+      "pyspark": {
+        "label": "PYSPARK",
+        "detail": "面向大规模数据的分布式处理。"
+      },
+      "powerBi": {
+        "label": "POWER BI",
+        "detail": "把复杂分析转化为清晰决策。"
+      },
+      "machineLearning": {
+        "label": "MACHINE LEARNING",
+        "detail": "把模式转化为可落地的预测。"
+      }
+    }
+  },
+  "heroIndex": {
+    "pipelines": "数据管道",
+    "analytics": "数据分析",
+    "machineLearning": "机器学习"
+  },
+  "profile": {
+    "code": "简介 / 001",
+    "kicker": "数据工程并不只是把数据从 A 移到 B。",
+    "title": "它是每一个值得信赖的决策背后安静而坚实的架构。",
+    "aboutLabel": "关于我",
+    "aboutText": "熟练使用 Python、SQL、Excel 和 Power BI 的数据科学家与分析师，专注于解决业务问题并支持可靠决策。",
+    "focusLabel": "重点",
+    "focusText": "数据准备、建模、预测、报告以及面向利益相关者的实用分析产品。",
+    "baseLabel": "所在地",
+    "baseText": "德国北莱茵-威斯特法伦州"
+  },
+  "systems": {
+    "code": "项目系统 / 008",
+    "title": "精选项目，<br>以动态系统呈现。",
+    "description": "每个项目都从一个业务问题开始，以一个可用信号结束。",
+    "projectListLabel": "项目列表",
+    "openSource": "查看源码 ↗",
+    "sourceLabel": "数据源",
+    "processLabel": "处理",
+    "outputLabel": "输出",
+    "businessSignal": "业务信号",
+    "systemLabel": "系统 {{number}}"
+  },
+  "capabilities": {
+    "code": "能力 / 004",
+    "title": "完整的数据生命周期，<br>统一于清晰的视角。",
+    "items": {
+      "engineer": {
+        "title": "构建",
+        "text": "Python · SQL · PySpark · ETL/ELT · 数据建模 · 编排 · 云工作流"
+      },
+      "analyze": {
+        "title": "分析",
+        "text": "Power BI · DAX · Excel · Power Query · 仪表板设计 · 业务报告"
+      },
+      "predict": {
+        "title": "预测",
+        "text": "EDA · 特征工程 · 回归 · 分类 · 预测 · 部署"
+      },
+      "translate": {
+        "title": "转化",
+        "text": "指标 · 业务问题 · 分析叙事 · 可执行建议"
+      }
+    }
+  },
+  "contact": {
+    "code": "联系 / 开放",
+    "kicker": "每一个强大的系统都始于一个有价值的问题。",
+    "title": "数据应该<br>揭示什么？",
+    "endpoint": "POST /合作",
+    "payload": "{\n  \"name\": \"Oyewole Oluwatoyosi\",\n  \"role\": \"Data Engineer\",\n  \"location\": \"NRW, Germany\",\n  \"available\": true,\n  \"status\": 200\n}"
+  },
+  "footer": {
+    "signature": "以动态数据系统的方式设计",
+    "backToOrbit": "返回轨道 ↑"
+  },
+  "projects": [
+    {
+      "shortTitle": "CDC 物流管道",
+      "type": "数据工程 · CDC · POSTGRESQL",
+      "title": "CDC 物流数据管道",
+      "description": "用于同步物流事件、保持数据一致性并支持近实时分析的变更数据捕获管道。",
+      "source": "物流交易数据",
+      "process": "捕获 · 流式传输 · 同步",
+      "output": "可靠的运营数据",
+      "metric": "近实时可视性"
+    },
+    {
+      "shortTitle": "联合国农产品管道",
+      "type": "数据工程 · ETL · 分析",
+      "title": "联合国农产品数据管道",
+      "description": "端到端管道，用于摄取、清洗和结构化联合国农产品数据，支持可靠分析与报告。",
+      "source": "联合国农产品数据集",
+      "process": "摄取 · 验证 · 转换",
+      "output": "可分析数据集",
+      "metric": "可信的农产品洞察"
+    },
+    {
+      "shortTitle": "GCP 产品评论管道",
+      "type": "GCP · 数据管道 · NLP",
+      "title": "GCP 产品评论数据管道",
+      "description": "基于 Google Cloud 的云原生管道，用于处理产品评论并生成可扩展分析所需的结构化数据。",
+      "source": "产品评论数据",
+      "process": "采集 · 处理 · 增强",
+      "output": "评论智能层",
+      "metric": "可扩展的客户洞察"
+    },
+    {
+      "shortTitle": "Snowflake 财务数据集市",
+      "type": "分析工程 · SNOWFLAKE",
+      "title": "Snowflake 财务数据集市",
+      "description": "在 Snowflake 中构建的财务分析数据集市，用于组织业务指标、提高报告一致性并支持决策分析。",
+      "source": "财务源系统",
+      "process": "建模 · 测试 · 转换",
+      "output": "精选财务数据集市",
+      "metric": "一致的财务报告"
+    },
+    {
+      "shortTitle": "医疗服务提供者管道",
+      "type": "数据工程 · 医疗健康",
+      "title": "医疗服务提供者数据管道",
+      "description": "结构化医疗数据管道，用于准备服务提供者信息，支持可靠分析、质量检查和运营报告。",
+      "source": "服务提供者记录",
+      "process": "验证 · 标准化 · 加载",
+      "output": "可信的提供者数据集",
+      "metric": "更高的数据质量"
+    },
+    {
+      "shortTitle": "电商 CRM 分析",
+      "type": "数据仓库 · CRM · 活动分析",
+      "title": "电商 CRM 与营销活动分析",
+      "description": "连接电商、CRM 和营销活动数据，以衡量客户行为、营销表现和商业影响。",
+      "source": "电商 · CRM · 营销活动",
+      "process": "整合 · 建模 · 分析",
+      "output": "客户与活动数据集市",
+      "metric": "清晰的营销表现"
+    },
+    {
+      "shortTitle": "大宗商品价格机器学习",
+      "type": "MLOPS · KUBERNETES · 预测",
+      "title": "大宗商品价格预测机器学习管道",
+      "description": "面向生产的大宗商品价格预测管道，包含模型工作流、容器化和 Kubernetes 部署。",
+      "source": "大宗商品市场数据",
+      "process": "训练 · 评估 · 部署",
+      "output": "已部署的预测服务",
+      "metric": "可用于预测的智能"
+    },
+    {
+      "shortTitle": "Forggith 绩效分析",
+      "type": "分析 · POWER BI",
+      "title": "Forggith Pharmaceuticals 绩效评估",
+      "description": "将制药数据转化为产品、收入和销售团队洞察的结构化绩效分析。",
+      "source": "运营记录",
+      "process": "清洗 · 建模 · 验证",
+      "output": "决策仪表板",
+      "metric": "清晰的绩效洞察"
+    }
+  ]
+}

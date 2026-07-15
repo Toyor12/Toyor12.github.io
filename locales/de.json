@@ -1,0 +1,197 @@
+{
+  "language": {
+    "label": "Sprache"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "main": "Hauptnavigation",
+    "profile": "Profil",
+    "systems": "Systeme",
+    "capabilities": "Kompetenzen",
+    "contact": "Kontakt",
+    "toggle": "Navigation öffnen"
+  },
+  "identity": {
+    "subtitle": "Data Engineer · NRW, Deutschland"
+  },
+  "hero": {
+    "eyebrow": "<span></span>Offen für neue Data-Engineering-Aufgaben",
+    "title": "Sie verwandelt<br><em>Rohsignale</em><br>in Gewissheit.",
+    "lead": "Oyewole entwickelt verlässliche Pipelines, analytische Modelle und Datenprodukte, die verstreute Informationen in fundierte Entscheidungen verwandeln.",
+    "primaryAction": "Datenatlas öffnen",
+    "secondaryAction": "Gespräch beginnen <span>↗</span>"
+  },
+  "observatory": {
+    "ariaLabel": "Interaktives Datenobservatorium",
+    "portraitAlt": "Porträt von Oyewole Oluwatoyosi",
+    "coreLabel": "MENSCH / SYSTEM / 01",
+    "activeSignal": "AKTIVES SIGNAL",
+    "defaultLabel": "DATA ENGINEERING",
+    "defaultDetail": "Verlässliche Systeme, klare Entscheidungen.",
+    "signals": {
+      "python": {
+        "label": "PYTHON",
+        "detail": "Automatisierung, Transformation und robuste Datenlogik."
+      },
+      "sql": {
+        "label": "SQL",
+        "detail": "Verlässliche Antworten in Warehouse-Geschwindigkeit."
+      },
+      "pyspark": {
+        "label": "PYSPARK",
+        "detail": "Verteilte Verarbeitung für Daten im großen Maßstab."
+      },
+      "powerBi": {
+        "label": "POWER BI",
+        "detail": "Komplexe Analysen werden zu klaren Entscheidungen."
+      },
+      "machineLearning": {
+        "label": "MACHINE LEARNING",
+        "detail": "Muster werden in praktische Vorhersagen übersetzt."
+      }
+    }
+  },
+  "heroIndex": {
+    "pipelines": "PIPELINES",
+    "analytics": "ANALYTIK",
+    "machineLearning": "MACHINE LEARNING"
+  },
+  "profile": {
+    "code": "PROFIL / 001",
+    "kicker": "Data Engineering bedeutet für mich nicht, Zeilen nur von A nach B zu verschieben.",
+    "title": "Es ist die stille Architektur hinter jeder Entscheidung, der Menschen vertrauen können.",
+    "aboutLabel": "ÜBER MICH",
+    "aboutText": "Data Scientist und Analystin mit Erfahrung in Python, SQL, Excel und Power BI und einem klaren Fokus auf Geschäftsprobleme und fundierte Entscheidungen.",
+    "focusLabel": "FOKUS",
+    "focusText": "Datenaufbereitung, Modellierung, Forecasting, Reporting und praxisnahe Analyseprodukte für Stakeholder.",
+    "baseLabel": "STANDORT",
+    "baseText": "Nordrhein-Westfalen, Deutschland"
+  },
+  "systems": {
+    "code": "SYSTEME / 008",
+    "title": "Ausgewählte Arbeiten,<br>als lebende Systeme kartiert.",
+    "description": "Jedes Projekt beginnt mit einer Geschäftsfrage und endet mit einem nutzbaren Signal.",
+    "projectListLabel": "Projektliste",
+    "openSource": "QUELLCODE ÖFFNEN ↗",
+    "sourceLabel": "QUELLE",
+    "processLabel": "PROZESS",
+    "outputLabel": "ERGEBNIS",
+    "businessSignal": "BUSINESS-SIGNAL",
+    "systemLabel": "SYSTEM {{number}}"
+  },
+  "capabilities": {
+    "code": "KOMPETENZEN / 004",
+    "title": "Der gesamte Datenlebenszyklus,<br>aus einer klaren Perspektive.",
+    "items": {
+      "engineer": {
+        "title": "Entwickeln",
+        "text": "Python · SQL · PySpark · ETL/ELT · Datenmodellierung · Orchestrierung · Cloud-Workflows"
+      },
+      "analyze": {
+        "title": "Analysieren",
+        "text": "Power BI · DAX · Excel · Power Query · Dashboard-Design · Stakeholder-Reporting"
+      },
+      "predict": {
+        "title": "Vorhersagen",
+        "text": "EDA · Feature Engineering · Regression · Klassifikation · Forecasting · Deployment"
+      },
+      "translate": {
+        "title": "Übersetzen",
+        "text": "Kennzahlen · Geschäftsfragen · analytische Geschichten · praktische Empfehlungen"
+      }
+    }
+  },
+  "contact": {
+    "code": "KONTAKT / OFFEN",
+    "kicker": "Jedes starke System beginnt mit einer nützlichen Frage.",
+    "title": "Was sollen<br>die Daten zeigen?",
+    "endpoint": "POST /ZUSAMMENARBEIT",
+    "payload": "{\n  \"name\": \"Oyewole Oluwatoyosi\",\n  \"rolle\": \"Data Engineer\",\n  \"standort\": \"NRW, Deutschland\",\n  \"verfügbar\": true,\n  \"status\": 200\n}"
+  },
+  "footer": {
+    "signature": "Als lebendes Datensystem gestaltet",
+    "backToOrbit": "Zurück zum Orbit ↑"
+  },
+  "projects": [
+    {
+      "shortTitle": "CDC-Logistik-Pipeline",
+      "type": "DATA ENGINEERING · CDC · POSTGRESQL",
+      "title": "CDC-Logistik-Pipeline",
+      "description": "Eine Change-Data-Capture-Pipeline für Logistikdaten, die operative Ereignisse synchronisiert, Datenkonsistenz sicherstellt und nahezu Echtzeit-Analysen ermöglicht.",
+      "source": "Logistiktransaktionen",
+      "process": "Erfassen · streamen · synchronisieren",
+      "output": "Zuverlässige operative Daten",
+      "metric": "Nahezu Echtzeit-Transparenz"
+    },
+    {
+      "shortTitle": "UN-Agrarrohstoff-Pipeline",
+      "type": "DATA ENGINEERING · ETL · ANALYTICS",
+      "title": "UN-Pipeline für Agrarrohstoffe",
+      "description": "Eine End-to-End-Pipeline zur Aufnahme, Bereinigung und Strukturierung von Agrarrohstoffdaten der Vereinten Nationen für verlässliche Analysen und Berichte.",
+      "source": "UN-Rohstoffdatensätze",
+      "process": "Aufnehmen · validieren · transformieren",
+      "output": "Analysebereiter Datensatz",
+      "metric": "Verlässliche Rohstoffeinblicke"
+    },
+    {
+      "shortTitle": "GCP-Bewertungspipeline",
+      "type": "GCP · DATA PIPELINE · NLP",
+      "title": "GCP-Pipeline für Produktbewertungen",
+      "description": "Eine cloudnative Datenpipeline auf Google Cloud, die Produktbewertungen verarbeitet und strukturierte Daten für skalierbare Analysen bereitstellt.",
+      "source": "Produktbewertungsdaten",
+      "process": "Sammeln · verarbeiten · anreichern",
+      "output": "Review-Intelligence-Schicht",
+      "metric": "Skalierbare Kundeneinblicke"
+    },
+    {
+      "shortTitle": "Snowflake Finance Mart",
+      "type": "ANALYTICS ENGINEERING · SNOWFLAKE",
+      "title": "Snowflake Finance Data Mart",
+      "description": "Ein finanzorientierter analytischer Data Mart in Snowflake zur Strukturierung von Geschäftskennzahlen und für konsistente, entscheidungsreife Berichte.",
+      "source": "Finanzielle Quellsysteme",
+      "process": "Modellieren · testen · transformieren",
+      "output": "Kuratierter Finance Mart",
+      "metric": "Konsistente Finanzberichte"
+    },
+    {
+      "shortTitle": "Healthcare-Provider-Pipeline",
+      "type": "DATA ENGINEERING · HEALTHCARE",
+      "title": "Healthcare-Provider-Pipeline",
+      "description": "Eine strukturierte Gesundheitsdaten-Pipeline, die Anbieterdaten für verlässliche Analysen, Qualitätsprüfungen und operative Berichte aufbereitet.",
+      "source": "Anbieterdatensätze",
+      "process": "Validieren · standardisieren · laden",
+      "output": "Verlässlicher Provider-Datensatz",
+      "metric": "Verbesserte Datenqualität"
+    },
+    {
+      "shortTitle": "E-Commerce CRM Analytics",
+      "type": "WAREHOUSING · CRM · CAMPAIGN ANALYTICS",
+      "title": "E-Commerce CRM- und Kampagnenanalyse",
+      "description": "Eine Analyselösung, die E-Commerce-, CRM- und Kampagnendaten verbindet, um Kundenverhalten, Marketingleistung und Geschäftswirkung zu messen.",
+      "source": "Commerce · CRM · Kampagnen",
+      "process": "Vereinheitlichen · modellieren · analysieren",
+      "output": "Kunden- und Kampagnen-Mart",
+      "metric": "Klare Marketingleistung"
+    },
+    {
+      "shortTitle": "Rohstoffpreis-ML",
+      "type": "MLOPS · KUBERNETES · FORECASTING",
+      "title": "ML-Pipeline zur Vorhersage von Rohstoffpreisen",
+      "description": "Eine produktionsorientierte Machine-Learning-Pipeline zur Rohstoffpreisprognose mit Modellworkflows, Containerisierung und Kubernetes-Bereitstellung.",
+      "source": "Rohstoffmarktdaten",
+      "process": "Trainieren · bewerten · bereitstellen",
+      "output": "Bereitgestellter Prognosedienst",
+      "metric": "Prognosefähige Erkenntnisse"
+    },
+    {
+      "shortTitle": "Forggith-Performance",
+      "type": "ANALYTICS · POWER BI",
+      "title": "Performance-Review von Forggith Pharmaceuticals",
+      "description": "Eine strukturierte Leistungsanalyse, die Pharmadaten in Produkt-, Umsatz- und Vertriebserkenntnisse übersetzt.",
+      "source": "Operative Datensätze",
+      "process": "Bereinigen · modellieren · validieren",
+      "output": "Entscheidungsdashboard",
+      "metric": "Klare Performance"
+    }
+  ]
+}
